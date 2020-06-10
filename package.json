@@ -1,0 +1,29 @@
+{
+  "name": "yjd",
+  "private": true,
+  "scripts": {
+    "preinstall": "node ./scripts/preinstall.js",
+    "test": "node scripts/test.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@rollup/plugin-babel": "^5.0.3",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@testing-library/jest-dom": "^5.9.0",
+    "@types/jest": "^26.0.0",
+    "camelcase": "^6.0.0",
+    "gulp": "^4.0.2",
+    "jest": "^26.0.1",
+    "jest-environment-jsdom-fourteen": "^1.0.1",
+    "jest-watch-typeahead": "^0.6.0",
+    "lerna": "^3.22.0",
+    "lerna-changelog": "^1.0.1",
+    "rollup": "^2.15.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {}
+}

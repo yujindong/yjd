@@ -1,0 +1,26 @@
+{
+  "version": "independent",
+  "changelog": {
+    "repo": "yujindong/yjd",
+    "cacheDir": ".changelog",
+    "changelog": {
+      "labels": {
+        "feat": ":rocket: New Feature",
+        "bug": ":bug: Bug Fix"
+      }
+    }
+  },
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "*.md",
+        "*.txt",
+        "test/**",
+        "**/test/**"
+      ],
+      "registry": "http://registry.npm.rsscc.cn/repository/hbgj-npm/"
+    },
+    "bootstrap": {}
+  },
+  "packages": ["packages/*"]
+}
